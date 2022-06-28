@@ -1,0 +1,35 @@
+.main{
+
+    .body{
+        padding: 2%;
+        min-height: 50vh;
+
+        .row{
+            margin-bottom: 20px;
+            .btn{
+                width: 100%;
+            }
+        }
+
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+
+            .card{
+                width: 48%;
+                margin: 1%;
+                padding: 1%;
+
+                .text{
+                    span{
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .table{
+            width: 70%;
+            margin: auto;
+        }
+    }
+}

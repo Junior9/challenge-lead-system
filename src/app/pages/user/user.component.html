@@ -1,0 +1,19 @@
+<div class="main">
+   
+    <app-header></app-header>
+    <div class="body">
+        
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a [routerLink]="['/']">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">{{user.name}}</li>
+            </ol>
+        </nav>
+        <div class="card">
+            <p>Name : {{user.name}}</p>
+            <p>Email : {{user.email}}</p>
+            <p>Gender : {{user.gender}}</p>
+            <p>Status : {{user.status}}</p>
+        </div>
+    </div>
+</div>
